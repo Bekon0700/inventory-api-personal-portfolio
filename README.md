@@ -35,13 +35,10 @@ Admin panel = super-admin, admin, officer
 | /change-active-status/:id | patch              | super-admin, admin | Change active status of an account |
 | /delete/:id               | delete             | super-admin        | Delete an account                  |
 
-<br/>
 ### SDLC Methodology:
 
 - For SDLC I used waterfall methodoloy, this is a personal project thus I didn't spend too much time thinking on perfect SDLC method.
 
-<br/>
-<br/>
 ### Key learning from this project:
 
 - Mongoose for MongoDB database
