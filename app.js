@@ -12,6 +12,10 @@ app.use(cors())
 app.use(express.json({ limit: '10kb' }))
 app.use(morgan('dev'))
 
+app.get('/', (req, res) => {
+    res.status(200).send('API IS RUNNING....')
+})
+
 
 app.use('/api/v1/products', productRouter);
 app.use('/api/v1/users', authRouter);
