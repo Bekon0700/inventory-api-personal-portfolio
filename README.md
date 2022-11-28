@@ -26,7 +26,6 @@ Admin panel = super-admin, admin, officer
 | /create                                              | post               | Admin panel    | Create a product                  |
 
 <br/>
-
 #### For user, base url is **:** {{domainName}}/api/v1/users/
 
 | **URL**                   | **REQUEST METHOD** | **PERMISSION**     | **RETURN**                         |
