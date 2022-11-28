@@ -1,4 +1,4 @@
-# - API LINK -> https://inventory-rest-api.vercel.app
+### API Main Domain -> https://inventory-rest-api.vercel.app
 
 # **API DOCUMENTATION**
 
@@ -6,7 +6,7 @@ This API is for **Inventory Management System** , where you can do CRUD operatio
 
 Admin panel = super-admin, admin, officer
 
-Base url for product: {{domainName}}/api/v1/products
+#### Base url for product: {{domainName}}/api/v1/products
 
 | **URL**                                              | **REQUEST METHOD** | **PERMISSION** | **RETURN**                        |
 | ---------------------------------------------------- | ------------------ | -------------- | --------------------------------- |
@@ -27,7 +27,7 @@ Base url for product: {{domainName}}/api/v1/products
 
 <br/>
 
-For user, base url is **:** {{domainName}}/api/v1/users/
+#### For user, base url is **:** {{domainName}}/api/v1/users/
 
 | **URL**                   | **REQUEST METHOD** | **PERMISSION**     | **RETURN**                         |
 | ------------------------- | ------------------ | ------------------ | ---------------------------------- |
@@ -36,3 +36,20 @@ For user, base url is **:** {{domainName}}/api/v1/users/
 | /create-account           | post               | super-admin        | Create new account                 |
 | /change-active-status/:id | patch              | super-admin, admin | Change active status of an account |
 | /delete/:id               | delete             | super-admin        | Delete an account                  |
+
+<br/>
+### SDLC Methodology:
+
+- For SDLC I used waterfall methodoloy, this is a personal project thus I didn't spend too much time thinking on perfect SDLC method.
+
+<br/>
+<br/>
+### Key learning from this project:
+
+- Mongoose for MongoDB database
+- Express middleware
+- Json web token, implement, verify and user authorization
+- MVC architecture
+- dynamic routing and querying
+- Filtering, sorting, limit, pagination and aliasing
+- Postman for API testing.
